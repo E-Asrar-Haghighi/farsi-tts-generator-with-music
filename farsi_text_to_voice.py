@@ -4,7 +4,7 @@ import os
 from pydub import AudioSegment
 
 # Set base directory for all file operations
-base_dir = r"C:\Users\lasra\Desktop\Youtube_voice_to_farsi"
+base_dir = "change it to your base directory adress"
 
 # Load API key from .env
 load_dotenv()
