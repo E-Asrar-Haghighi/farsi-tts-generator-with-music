@@ -32,8 +32,9 @@ This project converts Farsi (Persian) text from a `.txt` file into natural-sound
      OPENAI_API_KEY=your-openai-api-key-here
      ```
 5. **(Optional) Install ffmpeg:**
-   - Download and install ffmpeg from [ffmpeg.org](https://ffmpeg.org/download.html) and ensure it is in your system PATH.
-
+   - This project uses pydub for audio processing, which depends on FFmpeg.
+   - You can download the official version from [ffmpeg.org](https://ffmpeg.org/download.html), then add it to your system's PATH so the Python script can find it.
+   
 ## Usage
 ### 1. Generate Voiceover from Farsi Text
 1. Place your Farsi text in `farsi_text.txt` (UTF-8 encoding recommended).
