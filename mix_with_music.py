@@ -1,7 +1,7 @@
 import os
 from pydub import AudioSegment
 
-base_dir = r"C:\Users\lasra\Desktop\Youtube_voice_to_farsi"
+base_dir = "change it to your base directory adress"
 
 try:
     # Load voiceover and background music
